@@ -88,7 +88,7 @@ MODE_GALLERY_PREVIEW = "gallery_preview"
 MODE_EXTRA_TEXT_CONFIG = "extra_text_config"
 MODE_EXTRA_TEXT_PREVIEW = "extra_text_preview"
 MODE_ENDING_PLAY   = "ending_play"
-MODE_FONT_TEST     = "font_test"   # 起動時フォント検証ページ (SPACE で抜ける)
+MODE_FONT_TEST     = "font_test"
 
 TITLE_START_TRANSITION_FRAMES = 120
 TITLE_START_TRANSITION_HALF = TITLE_START_TRANSITION_FRAMES // 2
@@ -135,7 +135,7 @@ class App:
         from engine import audio as _audio
         _audio.init_audio()
 
-        self.mode  = MODE_FONT_TEST   # 起動時にフォント検証ページを表示
+        self.mode  = MODE_EDITOR
         self.state = EditorState()
 
         self._base_dir = os.path.dirname(os.path.abspath(__file__))
