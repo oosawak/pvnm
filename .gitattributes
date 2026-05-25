@@ -1,0 +1,32 @@
+* text=auto
+
+# Source and config files should use LF in the repository.
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# Runtime/game assets are binary.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.bdf binary
+*.ttf binary
+*.otf binary
+*.npy binary
+*.pyxapp binary
+*.apk binary
+*.app binary
+*.zip binary

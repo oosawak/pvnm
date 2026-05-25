@@ -1,0 +1,2 @@
+-r requirements.txt
+pyobjc-framework-AVFoundation>=12,<13

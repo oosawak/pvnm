@@ -1,0 +1,57 @@
+# macOS / local editor noise
+.DS_Store
+._*
+.claude/
+codex_history.md
+PVNM_ANDROID_IMPLEMENTATION_SUMMARY.md
+
+# Python cache / virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# PVNM runtime/editor generated files
+.pvnm_cache/
+.pvnm_export_logs/
+pvnm_saves.json
+settings.json
+
+# Local project/game content
+*.pvnm
+assets/images/bg/
+assets/images/chars/
+assets/images/ui/
+assets/sounds/bgm/
+assets/sounds/se/
+
+# Export outputs and build products
+export/
+*.pyxapp
+*.app
+*.apk
+*.exe
+*.dmg
+
+# Temporary local work directories
+tmp/
+tmp2/
+/tmp
+/tmp2
+*.tmp
+*.bak
+
+# Android / Node build artifacts, in case an exported project is copied back
+node_modules/
+.gradle/
+build/
+dist/
+pvnm-signing/
+pvnm-release-signing.properties
+*.jks
+*.keystore
+
+# Logs
+*.log
