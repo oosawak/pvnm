@@ -32,6 +32,7 @@ macOSでは `python3` の実体が環境によって違うため、必要に応�
 | 背景、立ち絵、BGM、SEを使う | [素材と音声](docs/ja/assets-and-audio.md) |
 | タイトル、エンディング、EXTRASを設定する | [タイトルとEXTRAS](docs/ja/title-extras.md) |
 | UI色、話者色、減色を調整する | [色とツール](docs/ja/colors-and-tools.md) |
+| PVNMの内部設計や減色・エクスポート技術を知る | [技術設計概要](docs/ja/technical-overview.md) |
 | 書き出し形式を選ぶ | [エクスポート概要](docs/ja/export.md) |
 | Windows EXEを書き出す | [Windows EXEエクスポート](docs/ja/export-windows.md) |
 | Web HTMLを書き出す | [Web HTMLエクスポート](docs/ja/export-web.md) |
@@ -103,6 +104,15 @@ macOSでは `python3` の実体が環境によって違うため、必要に応�
 | 作品公開前に確認漏れを潰したい | [作品公開前チェックリスト](docs/ja/work-release-checklist.md) |
 | PVNM本体をGitHubで公開したい | [PVNM本体を公開する流れ](docs/ja/pvnm-publication.md) |
 | PVNM本体公開前に確認漏れを潰したい | [PVNM本体公開前チェックリスト](docs/ja/pvnm-release-checklist.md) |
+
+### 技術設計
+
+| 知りたいこと | 見る場所 |
+| --- | --- |
+| PVNM全体の内部構造を知りたい | [技術設計概要](docs/ja/technical-overview.md) |
+| 減色アルゴリズム、シーンパレット、画像キャッシュを詳しく知りたい | [減色・パレット・画像キャッシュ設計](docs/ja/technical-palette.md) |
+| VN Palette Toolの各項目や0-10設定の仕組みを詳しく知りたい | [VN Palette Tool詳細設計](docs/ja/technical-vn-palette-tool.md) |
+| エクスポートのworker、manifest、Web/Android包装を詳しく知りたい | [エクスポート設計](docs/ja/technical-export.md) |
 
 ### 困ったとき
 

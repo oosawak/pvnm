@@ -4,6 +4,8 @@ PVNM can export projects into several distribution formats.
 
 Japanese version: [エクスポート概要](../ja/export.md)
 
+For internal details such as export workers, image cache prebuild, `image_manifest.json`, and Web/Android asset externalization, see [Export Design](technical-export.md).
+
 ## Quick Table
 
 | Menu | Output | Main use |

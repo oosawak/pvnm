@@ -2,6 +2,8 @@
 
 このページでは、PVNMから書き出せる形式の全体像を説明します。
 
+エクスポートworker、画像cache事前ビルド、`image_manifest.json`、Web/Android向けassets外部化などの内部設計を詳しく知りたい場合は、技術者向けの [エクスポート設計](technical-export.md) を参照してください。
+
 ## 早見表
 
 | メニュー | 出力 | 主な用途 |

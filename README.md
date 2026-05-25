@@ -32,6 +32,7 @@ On macOS, `python3` can point to different Python installations. If needed, run 
 | Use backgrounds, character images, BGM, and SE | [Assets and Audio](docs/en/assets-and-audio.md) |
 | Configure the title screen, endings, and EXTRAS | [Title and EXTRAS](docs/en/title-extras.md) |
 | Adjust UI colors, speaker colors, and palettes | [Colors and Tools](docs/en/colors-and-tools.md) |
+| Understand PVNM internals, palette reduction, and export technology | [Technical Design Overview](docs/en/technical-overview.md) |
 | Choose an export format | [Export Overview](docs/en/export.md) |
 | Export a Windows build | [Windows EXE Export](docs/en/export-windows.md) |
 | Export a Web build | [Web HTML Export](docs/en/export-web.md) |
@@ -103,6 +104,15 @@ On macOS, `python3` can point to different Python installations. If needed, run 
 | Review a game before release | [Game Release Checklist](docs/en/work-release-checklist.md) |
 | Publish PVNM on GitHub | [Publishing PVNM](docs/en/pvnm-publication.md) |
 | Review PVNM before release | [PVNM Release Checklist](docs/en/pvnm-release-checklist.md) |
+
+### Technical Design
+
+| Goal | Page |
+| --- | --- |
+| Understand PVNM's internal structure | [Technical Design Overview](docs/en/technical-overview.md) |
+| Understand quantization algorithms, scene palettes, and image cache | [Palette, Quantization, and Image Cache Design](docs/en/technical-palette.md) |
+| Understand every VN Palette Tool setting and 0-10 parameter | [VN Palette Tool Detailed Design](docs/en/technical-vn-palette-tool.md) |
+| Understand export workers, manifests, and Web/Android packaging | [Export Design](docs/en/technical-export.md) |
 
 ### When Something Goes Wrong
 

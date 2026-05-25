@@ -4,6 +4,8 @@ This page explains UI colors, speaker colors, and VN Palette Tool.
 
 Japanese version: [色とツール](../ja/colors-and-tools.md)
 
+For the internal design of quantization, scene palettes, and image cache, see [Palette, Quantization, and Image Cache Design](technical-palette.md). For a detailed breakdown of every VN Palette Tool setting, see [VN Palette Tool Detailed Design](technical-vn-palette-tool.md).
+
 ## COLOR CONFIG
 
 `SETTINGS > COLOR CONFIG` configures game UI colors such as the message window, borders, buttons, and text.
@@ -127,3 +129,5 @@ For palette settings, `PVNM AUTO` is usually the best starting point. Use `CUSTO
 If `BATCH` output is empty, results are saved to `_pvnm_batch` inside the input folder. If `RENAME` output is empty, results are saved to `_renamed`. Original images are not modified.
 
 Always check the final result in the editor preview and in the exported target environment, especially for Windows, Web, and Android.
+
+For implementation details such as what `Noise reduction 0-10` or `Speck removal 0-10` changes internally, see [VN Palette Tool Detailed Design](technical-vn-palette-tool.md).
