@@ -549,11 +549,20 @@ class FilePicker:
         draw_panel(dx, dy, dw, dh)
         draw_titlebar(dx, dy, dw, self._title)
 
+        # 現在パスを表示（フルパス）
+        cur_disp = self._current_dir
+        path_y = dy + _TITLE_H + 2
+        path_size = _w._editor_font_size - 2
+        status_w = max(1, dw - 16)
+        draw_unicode(dx + 4, path_y, 
+                     _fit_text(cur_disp, status_w, path_size),
+                     EDIT_TEXT, size=path_size, bg_col=EDIT_PANEL)
+
         # リスト領域（左半分）
         list_x = dx + 4
-        list_y = dy + _TITLE_H + 4
+        list_y = dy + _TITLE_H + 20
         list_w = dw // 2 - 8
-        list_h = dh - _TITLE_H - 40
+        list_h = dh - _TITLE_H - 56
 
         # リスト背景
         pyxel.rect(list_x, list_y, list_w, list_h, EDIT_BG)
@@ -621,7 +630,7 @@ class FilePicker:
 
         # プレビュー領域（右半分）
         preview_x = dx + dw // 2 + 4
-        preview_y = dy + _TITLE_H + 4
+        preview_y = dy + _TITLE_H + 20
         preview_w = dw // 2 - 8
         preview_h = list_h
 
